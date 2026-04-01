@@ -1,0 +1,39 @@
+h1 {
+    color: blueviolet;
+}
+p { 
+    font-size: 25px;
+    color: black;
+}
+body {
+    background-color: rgba(0, 136, 255, 0.692); text-align: center;
+
+}/* Estilos gerais para todas as divs através da classe comum */
+.container {
+    width: 150px;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Div 1: Flexbox */
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2ecc71; /* Verde */
+}
+
+/* Div 2: Inline-block (necessário para aceitar largura e altura) */
+.inline-box {
+    display: inline-block;
+    background-color: #3498db; /* Azul */
+    vertical-align: top;
+}
+
+/* Div 3: Float */
+.float-box {
+    float: left;
+    background-color: #e74c3c; /* Vermelho */
+}
